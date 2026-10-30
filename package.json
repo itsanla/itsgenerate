@@ -1,0 +1,17 @@
+{
+  "name": "itsgenerate",
+  "version": "0.1.0",
+  "description": "CLI pembuat gambar lewat gateway AI berformat OpenAI, dengan gaya ilustrasi dan logo yang konsisten untuk AI agent",
+  "type": "module",
+  "bin": { "itsgenerate": "bin/itsgenerate.js" },
+  "files": ["bin", "src"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test" },
+  "dependencies": { "sharp": "^0.35.5" },
+  "keywords": ["cli", "ai", "image", "image-generation", "ai-agent"],
+  "repository": { "type": "git", "url": "git+https://github.com/itsanla/itsgenerate.git" },
+  "homepage": "https://github.com/itsanla/itsgenerate#readme",
+  "bugs": "https://github.com/itsanla/itsgenerate/issues",
+  "author": "itsanla",
+  "license": "MIT"
+}
